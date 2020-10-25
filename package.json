@@ -1,0 +1,49 @@
+{
+  "name": "fluffy-dark-theme",
+  "displayName": "Fluffy Dark Theme",
+  "description": "A dark version of fluffy theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "auth": {
+    "name": "AyakoSky",
+    "email": "ayakosky@gmail.com",
+    "url": "https://github.com/ayako02"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayako02/fluffy-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/ayako02/fluffy-theme/issues"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "pink",
+    "cute",
+    "light",
+    "kawaii",
+    "macaroon",
+    "morandi",
+    "colourful",
+    "unicorn",
+    "blue",
+    "purple",
+    "fluffy"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fluffy Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fluffy-dark-theme.json"
+      }
+    ]
+  }
+}
