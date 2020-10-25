@@ -4,6 +4,10 @@ All notable changes to the "fluffy-dark-theme" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [V0.0.1]
+#### [V0.0.2]
+
+- Added icon, cover photo and preview image
+
+#### [V0.0.1]
 
 - Initial release with Readme, CHANGELOG, and dark theme file.
