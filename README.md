@@ -1,10 +1,6 @@
 # Fluffy Dark Theme
 
-![Logo]()
-
 ### Preview 买家秀
-
-![Preview]()
 
 ### Introduction
 
