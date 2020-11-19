@@ -32,9 +32,11 @@
     "input.foreground": "#888CCC",
     "input.placeholderForeground": "#AAAAAA",
 
+    // Badge in icon sidebar
     "badge.background": "#EFE8F0",
     "badge.foreground": "#6f73b1",
 
+    // Opened file navigation tab
     "tab.activeBackground": "#263238",
     "tab.activeForeground": "#FF9EB5",
     "tab.activeBorder": "#FF9EB5",
@@ -44,58 +46,85 @@
     "button.background": "#FF9EB5",
     "button.hoverBackground": "#888CCC",
 
+    // Editor's scrollbar
     "scrollbarSlider.background": "#FF9EB5",
     "scrollbarSlider.activeBackground": "#888CCC",
     "scrollbarSlider.hoverBackground": "#DEF7EF",
 
-    "dropdown.border": "#888CCC",
-    "dropdown.foreground": "#888CCC",
+    "dropdown.border": "#FF9EB5",
+    "dropdown.foreground": "#FF9EB5",
 
+    // Project files and folers listing
     "list.errorForeground": "#9DDBD6",
     "list.warningForeground": "#89DDFF",
     "list.dropBackground": "#EFE8F0",
     "list.hoverBackground": "#CF9FD3",
-    "list.hoverForeground": "#fff",
+    "list.hoverForeground": "#FFFFFF",
     "list.focusBackground": "#b3fce5b0",
-    "list.focusForeground": "#FFF",
+    "list.focusForeground": "#FFFFFF",
     "list.inactiveSelectionBackground": "#888CCC",
-    "list.inactiveSelectionForeground": "#fff",
+    "list.inactiveSelectionForeground": "#FFFFFF",
     "list.activeSelectionBackground": "#FF9EB5",
     "list.activeSelectionForeground": "#FFF",
-
     "list.filterMatchBackground": "#EFE8F0",
     "listFilterWidget.background": "#EFE8F0",
 
-    "gitDecoration.addedResourceForeground": "#318B8C",
-    "gitDecoration.modifiedResourceForeground": "#C9E7FF",
-    "gitDecoration.untrackedResourceForeground": "#C8ECE0",
+    // Git changes
+    "gitDecoration.addedResourceForeground": "#b3fce5b0",
+    "gitDecoration.modifiedResourceForeground": "#ABA1F8",
+    "gitDecoration.untrackedResourceForeground": "#78B1FC",
     "gitDecoration.deletedResourceForeground": "#CF426F",
     "gitDecoration.ignoredResourceForeground": "#AAAAAA",
     "gitDecoration.submoduleResourceForeground": "#DB81CC",
-    "gitDecoration.conflictingResourceForeground": "#FCFF32",
+    "gitDecoration.conflictingResourceForeground": "#F6EFA7",
+    "gitDecoration.stageModifiedResourceForeground": "#FCB69F",
+    "gitDecoration.stageDeletedResourceForeground": "#DECBC9",
 
+    // Icon sidebar
     "activityBar.background": "#263238",
     "activityBar.border": "#FF9EB5",
     "activityBar.foreground": "#FF9EB5",
     "activityBarBadge.background": "#888CCC",
 
+    // Project listing bar
     "sideBar.border": "#FF9EB5",
     "sideBar.background": "#263238",
     "sideBar.foreground": "#FF9EB5",
     "sideBarSectionHeader.border": "#FF9EB5",
     "sideBarSectionHeader.background": "#263238",
 
+    // Editor's bottom bar
     "statusBar.background": "#888CCC",
     "statusBar.noFolderBackground": "#888CCC",
     "statusBar.debuggingBackground": "#318B8C",
     "statusBarItem.activeBackground": "#FF9EB5",
 
-    "panelTitle.activeForeground": "#888CCC",
+    // Terminal header bar
+    "panel.border": "#FF9EB5",
+    "panelTitle.activeForeground": "#ADBEEF",
     "panelTitle.inactiveForeground": "#FF9EB5",
 
+    // Terminal
     "terminal.foreground": "#FF9EB5",
     "terminalCursor.foreground": "#FF9EB5",
+    "terminal.ansiBlack": "#333",
+    "terminal.ansiBrightBlack": "#444343",
+    "terminal.ansiBlue": "#4B83CD",
+    "terminal.ansiBrightBlue": "#78b1fc",
+    "terminal.ansiGreen": "#318B8C",
+    "terminal.ansiBrightGreen": "#58bbbd",
+    "terminal.ansiCyan": "#9DDBD6",
+    "terminal.ansiBrightCyan": "#b2e6e1",
+    "terminal.ansiRed": "#CF426F",
+    "terminal.ansiBrightRed": "#e27b7b",
+    "terminal.ansiMagenta": "#888CCC",
+    "terminal.ansiBrightMagenta": "#DB81CC",
+    "terminal.ansiYellow": "#F6EFA7",
+    "terminal.ansiBrightYellow": "#f3d36b",
+    "terminal.ansiWhite": "#72696f",
+    "terminal.ansiBrightWhite": "#978c94",
 
+    // Editor's top bar
     "titleBar.activeBackground": "#888CCC",
     "titleBar.activeForeground": "#FFF"
   },
@@ -112,7 +141,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#888CCC" //CF9FD3
+        "foreground": "#ADBEEF"
       }
     },
     {
@@ -133,7 +162,7 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#FF9EB5"
+        "foreground": "#EF96C5"
       }
     },
     {
@@ -153,7 +182,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#FF9EB5"
+        "foreground": "#EF96C5"
       }
     },
     {
@@ -170,7 +199,6 @@
     {
       "name": "Function, Special Method",
       "scope": [
-        "entity.name.function",
         "meta.function-call",
         "variable.function",
         "support.function",
@@ -178,6 +206,21 @@
       ],
       "settings": {
         "foreground": "#9DDBD6"
+      }
+    },
+    {
+      "name": "Function name",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#9DDBD6"
+      }
+    },
+    {
+      "name": "Function argument",
+      "scope": "variable.parameter",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#C5B5FF"
       }
     },
     {
@@ -195,14 +238,13 @@
       }
     },
     {
-      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "name": "Number, Constant, Tag Attribute, Embedded",
       "scope": [
         "constant.numeric",
         "constant.language",
         "support.constant",
         "constant.character",
         "constant.escape",
-        "variable.parameter",
         "keyword.other.unit",
         "keyword.other"
       ],
@@ -222,7 +264,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#CF9FD3"
+        "foreground": "#C5B5FF"
       }
     },
     {
@@ -303,7 +345,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#FF9EB5"
+        "foreground": "#EF96C5"
       }
     },
     {
@@ -413,7 +455,6 @@
       }
     },
 
-    // -------------------------- JSON ------------------------------
     {
       "name": "JSON Key - Level 0",
       "scope": [
@@ -496,7 +537,6 @@
       }
     },
 
-    // ------------------------------- Markdown -----------------------------
     {
       "name": "Markdown - Plain",
       "scope": [
@@ -605,7 +645,7 @@
       "name": "Markdown - Link Anchor",
       "scope": ["constant.other.reference.link.markdown"],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#EF96C5"
       }
     },
     {

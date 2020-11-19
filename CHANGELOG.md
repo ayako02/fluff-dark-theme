@@ -4,6 +4,11 @@ All notable changes to the "fluffy-dark-theme" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+#### [V0.0.3]
+
+- Changed function colours
+- Updated dropdown and terminal colours
+
 #### [V0.0.2]
 
 - Added icon, cover photo and preview image

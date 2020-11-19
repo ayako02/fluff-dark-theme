@@ -2,7 +2,7 @@
 
 ![Logo](https://github.com/ayako02/fluff-dark-theme/blob/master/assets/cover.jpeg?raw=true)
 
-### Preview 买家秀
+### Preview 卖家秀
 
 ![Preview](https://github.com/ayako02/fluff-dark-theme/blob/master/assets/preview.png?raw=true)
 

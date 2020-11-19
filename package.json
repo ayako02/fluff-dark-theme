@@ -4,7 +4,7 @@
   "publisher": "AyakoSky",
   "icon": "assets/icon.jpeg",
   "description": "A dark version of fluffy theme",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.50.0"
   },
