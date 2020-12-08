@@ -2,7 +2,10 @@
 
 All notable changes to the "fluffy-dark-theme" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+#### [V0.0.4]
+
+- Changed colours of function name, function call, keyword and storage
+- Changed the font style of class and support
 
 #### [V0.0.3]
 
