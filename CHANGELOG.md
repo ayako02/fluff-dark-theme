@@ -2,6 +2,10 @@
 
 All notable changes to the "fluffy-dark-theme" extension will be documented in this file.
 
+#### [V0.0.5]
+
+- Updated colours of gitDecorations
+
 #### [V0.0.4]
 
 - Changed colours of function name, function call, keyword and storage

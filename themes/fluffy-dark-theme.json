@@ -77,8 +77,8 @@
     "gitDecoration.ignoredResourceForeground": "#AAAAAA",
     "gitDecoration.submoduleResourceForeground": "#DB81CC",
     "gitDecoration.conflictingResourceForeground": "#F6EFA7",
-    "gitDecoration.stageModifiedResourceForeground": "#FCB69F",
-    "gitDecoration.stageDeletedResourceForeground": "#DECBC9",
+    "gitDecoration.stageModifiedResourceForeground": "#BDAFE8",
+    "gitDecoration.stageDeletedResourceForeground": "#FCB69F",
 
     // Icon sidebar
     "activityBar.background": "#263238",
