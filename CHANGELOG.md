@@ -2,6 +2,12 @@
 
 All notable changes to the "fluffy-dark-theme" extension will be documented in this file.
 
+#### [V0.0.6]
+
+- Added active line number colour
+- Added editor's breadcrump colours
+- Added coding peekview related colours
+
 #### [V0.0.5]
 
 - Updated colours of gitDecorations

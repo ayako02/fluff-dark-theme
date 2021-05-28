@@ -4,7 +4,6 @@
   "colors": {
     "editor.background": "#263238",
     "editor.foreground": "#FF9EB5",
-
     "editor.selectionBackground": "#585555ab",
 
     "editor.wordHighlightBackground": "#585555ab",
@@ -23,6 +22,7 @@
     "editorCursor.foreground": "#FF9EB5",
     "editorGutter.addedBackground": "#ff0000",
     "editorLineNumber.foreground": "#FF9EB5",
+    "editorLineNumber.activeForeground": "#DEF7EF",
     "editorGroupHeader.tabsBackground": "#263238",
 
     "extensionButton.prominentForeground": "#FFFFFF",
@@ -126,7 +126,17 @@
 
     // Editor's top bar
     "titleBar.activeBackground": "#888CCC",
-    "titleBar.activeForeground": "#FFF"
+    "titleBar.activeForeground": "#FFF",
+
+    // Editor's breadcrump
+    "breadcrumb.foreground": "#FF9EB5",
+    "breadcrumbPicker.background": "#263238",
+    "breadcrumb.focusForeground": "#DEF7EF",
+    "breadcrumb.activeSelectionForeground": "#888CCC",
+
+    // Coding Peekview
+    "peekViewResult.background": "#263238",
+    "peekViewEditor.matchHighlightBorder": "#FF9EB5"
   },
 
   "tokenColors": [
